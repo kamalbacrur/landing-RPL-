@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #464370;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    box-sizing: border-box;
+    display: flex;
+    padding: 15px;
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.75);
+}
+.navbar .logo{
+    flex: 70%;
+}
+.navbar .logo img{
+    width: 100px;
+    margin-left: 60px;
+}
+.navbar ul{
+    flex: 30%;
+}
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a{
+    margin: 10px;
+    color: white;
+    font-weight: 500;
+}
+.navbar ul li a:hover{
+    color: #fecb24;
+    border-bottom: 2px solid #fecb24;
+    transition: 0.1s;
+}
+.icon-user {
+    flex: 10%;
+}
+.icon-user a{
+    color: #fecb24;
+}
+.icon-user img{
+    width: 15px;
+}
+header {
+    box-sizing: border-box;
+    display: flex;
+    background: white;
+    opacity: 0.8;
+}
+header img{
+    margin-top: 50px;
+    width: 85%;
+}
+.tag {
+    margin: 80px auto;
+}
+.tag h2 {
+    margin-bottom: 30px;
+    color: #464370;
+}
+.tag p {
+    width: 95%;
+    margin-bottom: 30px;
+    color: #464370;
+}
+.tag button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: #464370;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.75);
+    outline: none;
+}
+.tag button:hover{
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.75);
+    transition: 0.9s;
+}
+.tag a{
+    color: white;
+    font-weight: 500;
+}
+.content h2{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+hr{
+    border: 2px solid #fecb24;
+    width: 130px;
+    margin: 5px auto;
+}
+.column{
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+}
+.column .kotak{
+    cursor: pointer;
+    flex-wrap: wrap;
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 0px 20px 0px 20px;
+}
+.column .kotak:hover{
+    background: #fecb24;
+    transition: 0.8;
+}
+.column .kotak img{
+    width: 150px;
+}
+.text{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.form{
+    padding: 10px;
+    background-color: #fecb24;
+}
+.form h2 {
+    margin-top: 30px;
+    text-align: center;
+    color: #464370;
+    font-weight: 400;
+    padding: 0px;
+}
+.form hr{
+    border: 2px solid white;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.tulisan p{
+    font-weight: 500;
+}
+.contact,.tulisan{
+    margin-top: 10vh;
+}
+.tulisan{
+    margin-top: 30vh;
+}
+.contact input[type=text],input[type=number] {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.contact input[type=email]{
+    display: block;
+    width: 93%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 93%;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40%;
+    resize: none;
+    outline: none;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: #464370;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.75);
+    outline: none;
+}
+button a{
+    color: white;
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    background: #464370;
+    
+}
+footer img {
+    margin-right: 100px;
+    float: right;
+    width: 150px;
+    padding: 20px;
+}
